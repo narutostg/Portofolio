@@ -61,7 +61,7 @@ doc.addPageTemplates([PageTemplate(id="cv", frames=frame, onPage=draw_footer)])
 story = []
 
 header = Table(
-    [[para("Naruto Sitanggang", "Name"), para("SOFTWARE ENGINEER<br/>Backend / Full-Stack / DevOps", "Role")]],
+    [[para("Naruto Sitanggang", "Name"), para("SOFTWARE ENGINEER<br/>Backend / Full-Stack<br/>DevOps-focused experience", "Role")]],
     colWidths=[105 * mm, 70 * mm],
 )
 header.setStyle(TableStyle([
@@ -73,16 +73,16 @@ header.setStyle(TableStyle([
     ("LINEBELOW", (0, 0), (-1, -1), 0.7, LINE),
 ]))
 story.extend([header, Spacer(1, 10)])
-story.append(para("Informatics Engineering student at Institut Teknologi Sepuluh Nopember with hands-on work across web applications, backend systems, APIs, databases, and deployment. Also explores AI/data and application security.", "Body"))
+story.append(para("Informatics Engineering student at Institut Teknologi Sepuluh Nopember with a strong interest in Software Engineering and hands-on experience in full-stack web development and backend systems. Developed REST APIs, integrated databases and services, and deployed containerized applications through academic and real-world projects.", "Body"))
 story.append(Spacer(1, 4))
 story.append(para("narutositanggang@gmail.com  |  github.com/narutostg  |  linkedin.com/in/narutositanggang/", "BodySmall"))
 story.append(para("SELECTED PROJECTS", "Section"))
 
 projects = [
-    ("01", "Customer Portal - PT Semen Indonesia Logistik", "DevOps & Fullstack Developer · Capstone project", "Full-stack customer portal spanning frontend, backend, database, and infrastructure. Work included API integration, authentication, service integration, deployment, and Linux server configuration.", "Go, Gin, Next.js, TypeScript, PostgreSQL, Redis, Docker, Linux, MinIO, Reverse Proxy"),
-    ("02", "Course Recommendation System", "Knowledge-Based System · Academic project", "Course recommendations using RAG and LLM components, with transcript handling, curriculum data, vector search, retrieval, and system integration.", "RAG, LLM, Python, PostgreSQL, Qdrant"),
+    ("01", "Customer Portal - PT Semen Indonesia Logistik", "DevOps and Fullstack Developer | Capstone project | 2026", "Worked across frontend, backend, database, and infrastructure, with a stronger focus on DevOps: deployment and environment configuration with Docker on Linux servers, reverse proxy, debugging, service integration, and CI/CD-oriented workflows. Also developed and integrated REST APIs, authentication, and dynamic frontend features; integrated PostgreSQL, Redis, and object storage.", "Go, Gin, Next.js, TypeScript, PostgreSQL, Redis, Docker, Linux, MinIO, Reverse Proxy, CI/CD"),
+    ("02", "Course Recommendation System", "Knowledge-Based System | Academic project", "Course recommendations using RAG and LLM components, with transcript handling, curriculum data, vector search, retrieval, and system integration.", "RAG, LLM, Python, PostgreSQL, Qdrant"),
     ("03", "Hotel Booking Web Application", "Full-stack web application", "Hotel booking with authentication, role-based access control, admin/user workflows, booking management, and relational database design.", "Full-Stack Web, Authentication, RBAC, SQL, Database Design"),
-    ("04", "Web Application Security Analysis", "Application security · Academic project", "White-box penetration testing and static source-code analysis, followed by security log analysis and structured reporting.", "Web Security, White-box Testing, Static Analysis, Security Log Analysis"),
+    ("04", "Web Application Penetration Testing", "Final project | NETICS 2025", "Conducted white-box analysis of web application source code to identify common vulnerabilities. Analyzed application security logs and documented findings with impact assessments and mitigation recommendations.", "Web Security, White-box Testing, Vulnerability Analysis, Security Log Analysis"),
 ]
 
 for number, title, context, description, technology in projects:
@@ -107,7 +107,7 @@ story.append(Spacer(1, 13))
 story.append(para("TECHNICAL SKILLS", "Section"))
 
 skill_rows = [
-    ("Software development", "Go, Python, Java, C/C++, JavaScript, TypeScript, HTML, CSS"),
+    ("Software development", "Go, Python, Java, JavaScript, TypeScript, HTML, CSS"),
     ("Backend", "Gin, REST API, PostgreSQL, SQL, Redis"),
     ("Frontend", "Next.js, React, HTML, CSS, JavaScript"),
     ("DevOps & systems", "Docker, Docker Compose, Linux, Git, CI/CD, Reverse Proxy"),
@@ -126,7 +126,7 @@ for category, content in skill_rows:
 story.append(para("EDUCATION", "Section"))
 education = Table([
     [para("2023 - Present", "Label"), [para("Institut Teknologi Sepuluh Nopember", "ProjectTitle"), para("Bachelor of Informatics Engineering", "BodySmall"), para("GPA: 3.50 / 4.00", "BodySmall")]],
-    [para("COURSEWORK", "Label"), para("Data Structures, Database Systems, Object-Oriented Programming, Operating Systems, Computer Networks, Web Programming, Software Design, Machine Learning, Data Mining, Information Security", "BodySmall")],
+    [para("COURSEWORK", "Label"), para("Data Structures, Object-Oriented Programming, Database Systems, Web Programming, Software Design, Operating Systems, Machine Learning, Data Mining", "BodySmall")],
 ], colWidths=[31 * mm, 144 * mm])
 education.setStyle(TableStyle([
     ("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0),

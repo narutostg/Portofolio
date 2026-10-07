@@ -10,9 +10,9 @@ export const projects: Project[] = [
   {
     number: '01',
     title: 'Customer Portal — PT Semen Indonesia Logistik',
-    context: 'Capstone project',
-    description: 'A full-stack customer portal involving application development, APIs, authentication, service integration, databases, and deployment.',
-    technologies: ['Go', 'Gin', 'Next.js', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker', 'Linux', 'MinIO', 'Reverse Proxy'],
+    context: 'DevOps & Fullstack Developer · Capstone · 2026',
+    description: 'Built and integrated application features across frontend, backend, database, and infrastructure for a customer portal capstone. My role leaned more toward DevOps: deployment and environment configuration with Docker on Linux servers, reverse proxy setup, debugging, service integration, and CI/CD-oriented workflows. I also contributed REST APIs, authentication, backend and database integration, and dynamic frontend features.',
+    technologies: ['Go', 'Gin', 'Next.js', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker', 'Linux', 'MinIO', 'Reverse Proxy', 'CI/CD'],
   },
   {
     number: '02',
@@ -31,14 +31,14 @@ export const projects: Project[] = [
   {
     number: '04',
     title: 'Web Application Penetration Testing',
-    context: 'Application security · Academic project',
-    description: 'White-box testing and static source-code analysis to identify web application vulnerabilities, followed by security log analysis and structured reporting.',
-    technologies: ['Web Security', 'White-box Testing', 'Static Analysis', 'Security Log Analysis'],
+    context: 'Final project · NETICS 2025',
+    description: 'Conducted white-box analysis of web application source code to identify common vulnerabilities. Analyzed application security logs and documented findings with impact assessments and mitigation recommendations.',
+    technologies: ['Web Security', 'White-box Testing', 'Vulnerability Analysis', 'Security Log Analysis'],
   },
 ];
 
 export const skillGroups = [
-  { title: 'Software development', items: ['Go', 'Python', 'Java', 'C/C++', 'JavaScript', 'TypeScript', 'HTML', 'CSS'] },
+  { title: 'Software development', items: ['Go', 'Python', 'Java', 'JavaScript', 'TypeScript', 'HTML', 'CSS'] },
   { title: 'Backend', items: ['Gin', 'REST API', 'PostgreSQL', 'SQL', 'Redis'] },
   { title: 'Frontend', items: ['Next.js', 'React', 'HTML', 'CSS', 'JavaScript'] },
   { title: 'DevOps & systems', items: ['Docker', 'Docker Compose', 'Linux', 'Git', 'CI/CD', 'Reverse Proxy'] },
@@ -46,7 +46,7 @@ export const skillGroups = [
   { title: 'Cybersecurity', items: ['Web Application Security', 'White-box Testing', 'Vulnerability Analysis', 'Wazuh'] },
 ];
 
-export const coursework = ['Data Structures', 'Database Systems', 'Object-Oriented Programming', 'Operating Systems', 'Computer Networks', 'Web Programming', 'Software Design', 'Machine Learning', 'Data Mining', 'Information Security'];
+export const coursework = ['Data Structures', 'Object-Oriented Programming', 'Database Systems', 'Web Programming', 'Software Design', 'Operating Systems', 'Machine Learning', 'Data Mining'];
 
 export const achievements = [
   { title: '2nd Place — Data Mining Competition', detail: 'Quadrathlon, Informatics Engineering ITS' },
