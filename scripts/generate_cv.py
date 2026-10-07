@@ -61,7 +61,7 @@ doc.addPageTemplates([PageTemplate(id="cv", frames=frame, onPage=draw_footer)])
 story = []
 
 header = Table(
-    [[para("Naruto Sitanggang", "Name"), para("SOFTWARE ENGINEER<br/>Backend / Full-Stack<br/>DevOps-focused experience", "Role")]],
+    [[para("Naruto Sitanggang", "Name"), para("SOFTWARE ENGINEER<br/>Full-Stack &amp; DevOps", "Role")]],
     colWidths=[105 * mm, 70 * mm],
 )
 header.setStyle(TableStyle([
@@ -79,7 +79,7 @@ story.append(para("narutositanggang@gmail.com  |  github.com/narutostg  |  linke
 story.append(para("SELECTED PROJECTS", "Section"))
 
 projects = [
-    ("01", "Customer Portal - PT Semen Indonesia Logistik", "DevOps and Fullstack Developer | Capstone project | 2026", "Worked across frontend, backend, database, and infrastructure, with a stronger focus on DevOps: deployment and environment configuration with Docker on Linux servers, reverse proxy, debugging, service integration, and CI/CD-oriented workflows. Also developed and integrated REST APIs, authentication, and dynamic frontend features; integrated PostgreSQL, Redis, and object storage.", "Go, Gin, Next.js, TypeScript, PostgreSQL, Redis, Docker, Linux, MinIO, Reverse Proxy, CI/CD"),
+    ("01", "Customer Portal - PT Semen Indonesia Logistik", "DevOps and Fullstack Developer | Capstone project | 2026", "Worked across frontend, backend, database, and infrastructure. DevOps work included deployment and environment configuration with Docker on Linux servers, reverse proxy, debugging, service integration, and CI/CD-oriented workflows. Also developed and integrated REST APIs, authentication flows, backend and database services, and dynamic frontend features; integrated PostgreSQL, Redis, and object storage.", "Go, Gin, Next.js, TypeScript, PostgreSQL, Redis, Docker, Linux, MinIO, Reverse Proxy, CI/CD"),
     ("02", "Course Recommendation System", "Knowledge-Based System | Academic project", "Course recommendations using RAG and LLM components, with transcript handling, curriculum data, vector search, retrieval, and system integration.", "RAG, LLM, Python, PostgreSQL, Qdrant"),
     ("03", "Hotel Booking Web Application", "Full-stack web application", "Hotel booking with authentication, role-based access control, admin/user workflows, booking management, and relational database design.", "Full-Stack Web, Authentication, RBAC, SQL, Database Design"),
     ("04", "Web Application Penetration Testing", "Final project | NETICS 2025", "Conducted white-box analysis of web application source code to identify common vulnerabilities. Analyzed application security logs and documented findings with impact assessments and mitigation recommendations.", "Web Security, White-box Testing, Vulnerability Analysis, Security Log Analysis"),

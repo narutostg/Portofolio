@@ -11,7 +11,7 @@ export const projects: Project[] = [
     number: '01',
     title: 'Customer Portal — PT Semen Indonesia Logistik',
     context: 'DevOps & Fullstack Developer · Capstone · 2026',
-    description: 'Built and integrated application features across frontend, backend, database, and infrastructure for a customer portal capstone. My role leaned more toward DevOps: deployment and environment configuration with Docker on Linux servers, reverse proxy setup, debugging, service integration, and CI/CD-oriented workflows. I also contributed REST APIs, authentication, backend and database integration, and dynamic frontend features.',
+    description: 'Built and integrated application features across frontend, backend, database, and infrastructure for a customer portal capstone. My DevOps work included deployment and environment configuration with Docker on Linux servers, reverse proxy, debugging, service integration, and CI/CD-oriented workflows. I also developed and integrated REST APIs, authentication flows, backend and database services, and dynamic frontend features.',
     technologies: ['Go', 'Gin', 'Next.js', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker', 'Linux', 'MinIO', 'Reverse Proxy', 'CI/CD'],
   },
   {
