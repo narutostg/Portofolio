@@ -15,8 +15,8 @@ export default function Home() {
               <div className="hero-copy">
                 <p className="eyebrow"><span className="status-dot" /> Informatics Engineering · ITS · Indonesia</p>
                 <h1 id="hero-title">Naruto<br />Sitanggang<span>.</span></h1>
-                <p className="hero-role">Software engineer focused on backend systems &amp; full-stack products</p>
-                <p className="hero-intro">I build web applications and backend systems, from APIs and data to deployment.</p>
+                <p className="hero-role">Informatics Engineering student focused on Software Engineering and DevOps</p>
+                <p className="hero-intro">I build full-stack applications, backend systems, and deployment workflows.</p>
               </div>
               <div className="hero-portrait"><Image src="/naruto-portrait.jpg" alt="Naruto wearing a blue Informatics jacket" fill sizes="(max-width: 760px) 150px, 260px" className="gallery-image" priority /></div>
               <div className="hero-actions"><a className="button button--primary" href="#projects">View projects <span aria-hidden="true">↓</span></a><a className="button button--text" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></div>
